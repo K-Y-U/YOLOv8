@@ -14,4 +14,8 @@ results = model.predict(source = "test.jpg")
 
 
 
-# 
+# Object Detection(Basic)
+첫 번째 Data Preparation에서 사전학습되어 있는 YOLO 모델의 prediction 기능만을 이용해서 예측을 했다.
+총 4장의 test_image를 Colab에 업로드 후 실행해보았다.(사진 출처는 MS COCO Dataset이다.)
+
+MS COCO Dataset 사전학습된 yolov8n 모델을 로드했다.
